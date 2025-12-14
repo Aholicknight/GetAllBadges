@@ -1,6 +1,6 @@
 /**
  * @name GetAllBadges
- * @version 1.0.0
+ * @version 1.0.1
  * @description A little plugin to get all Discord badges
  * @author PiciAkk
  * @website https://github.com/PiciAkk/GetAllBadges
