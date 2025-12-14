@@ -22,7 +22,7 @@
             // Fallback to webpack chunk approach
             const legacyWebpack = typeof window.webpackChunkdiscord_app !== "undefined" 
                 ? window.webpackChunkdiscord_app 
-                : window.webpackJsonp;
+                : (typeof window.webpackJsonp !== "undefined" ? window.webpackJsonp : null);
             
             if (legacyWebpack) {
                 const modules = Object.values(legacyWebpack.push([[],{[''] :(_,e,r)=>{e.cache=r.c}},
